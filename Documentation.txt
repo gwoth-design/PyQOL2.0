@@ -1,0 +1,2 @@
+rangeInt: takes the second integer value and subtracts from the first. then it returns the range value. 
+rangeFloat: takes the second float value and subtracts from the first. then it returns the range value. 
