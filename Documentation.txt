@@ -1,2 +1,7 @@
-rangeInt: takes the second integer value and subtracts from the first. then it returns the range value. 
-rangeFloat: takes the second float value and subtracts from the first. then it returns the range value. 
+MATHS QOL
+
+rangeInt: calculates range and returns an integer value. Doesnt matter which way around the numbers are entered. Entering a float into here will only result in a rounded calculation. 
+rangeFloat: calculates the range and returns a float value. if an integter is entered it will return with the same answer but as a float and not integer. doesnt matter which way around the numbers go in
+Mean: calcultes the mean of an array inputed. the data type must either be a float/double or an integer. always returns as a float so cast if you need as an integer and be weary that it may cause an error if the calculated result is not an integer value.
+Median. takes an array as an input. always returns a float. calculates the median.
+Mode. takes an array. calcules the modal value. if no value found then it returns None
