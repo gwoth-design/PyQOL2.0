@@ -5,3 +5,8 @@ rangeFloat: calculates the range and returns a float value. if an integter is en
 Mean: calcultes the mean of an array inputed. the data type must either be a float/double or an integer. always returns as a float so cast if you need as an integer and be weary that it may cause an error if the calculated result is not an integer value.
 Median. takes an array as an input. always returns a float. calculates the median.
 Mode. takes an array. calcules the modal value. if there is no singular modal value then there an array with all of the values of the same maximum frequency appear
+
+Other QOL
+
+triangleFractle: this isnt really quality of life but if you want to show off or just see something call, call this function
+BinarySearch: this takes an array and then a search value. returns "Not Found" if it isnt found and "Found At Index (the index it found it at)"
