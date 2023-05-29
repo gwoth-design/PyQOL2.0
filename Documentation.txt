@@ -10,3 +10,7 @@ Other QOL
 
 triangleFractle: this isnt really quality of life but if you want to show off or just see something call, call this function
 BinarySearch: this takes an array and then a search value. returns "Not Found" if it isnt found and "Found At Index (the index it found it at)"
+ValueExists: this is not a main function this is one for the other functions however if you feel like using it this is how. it takes a string input. if return a true or false with an index if it is true. it is checking whether or not the name that you placed in exists as a saved value in the "Save.txt" text document. the index is the line that it is saved to. 
+WriteToSaveFile: this is another non-main function but if you feel liek using it you can. it takes a string value for a name, a value of choice for the value and finally the data type that you chose for the value. PLEASE NOTE THAT THE DATA TYPE IN THE END IS EITHER: #INT#, #BOOL#, #FLOAT#, #STRING#. an example is here. "other.WriteToSaveFile("TestVar", 107, #INT#)"
+SaveInt, SaveFloat, SaveString, SaveBool. each of these functions takes a name and a value of their respective data type.
+ReadInt, ReadFloat, ReadString, ReadBool. each of these functions takes a name of a saved value you are looking for. they all return a value if found and the correct data type is found. 
